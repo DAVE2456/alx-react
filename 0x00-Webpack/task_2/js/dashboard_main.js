@@ -1,7 +1,7 @@
 import $ from 'jquery';
 const _ = require('lodash');
 import style from '../css/main.css';
-import image from '../assets/holberton-logo.jpg';
+import image from '../assets/holberton-logo.jpg'
 
 $('body').append("<p>Holberton Dashboard</p>");
 $('body').append("<p>Dashboard data for the students</p>");
