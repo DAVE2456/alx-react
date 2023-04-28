@@ -6,8 +6,6 @@ import App from './App';
 describe('Test App.js', () => {
   let wrapper;
 
-  //rendering
-
   beforeEach(() => {
     wrapper = shallow(<App />);
   });
@@ -36,6 +34,7 @@ describe('Test App.js', () => {
     expect(wrapper.find("CourseList")).toHaveLength(0);
   });
 });
+
 
 describe("Testing <App isLoggedIn={true} />", () => {
   let wrapper;
